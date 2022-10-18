@@ -10,6 +10,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     // React.StrictMode is a component that wraps the app and checks for potential problems
     <React.StrictMode>
         <HelloWorldApp />
-        <FirstApp />
+        <FirstApp title="Hola, soy Goku" subtitle={123} />
     </React.StrictMode>
 );
