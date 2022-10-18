@@ -8,4 +8,6 @@ export const HelloWorldApp = () => {
     return <h1>HelloWorldApp</h1>;
 };
 
+
+// Other form to export a component
 // export const HelloWorldApp = () => <h1>HelloWorldApp</h1>;
