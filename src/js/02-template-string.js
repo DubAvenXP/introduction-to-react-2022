@@ -1,18 +1,7 @@
+// for doing test... functions needs to be exported from the file
 
+// Jest executes this file
 
-
-const nombre   = 'Fernando';
-const apellido = 'Herrera';
-
-
-// const nombreCompleto = nombre + ' ' + apellido;
-const nombreCompleto = `${ nombre } ${ apellido }`;
-
-console.log( nombreCompleto );
-
-
-function getSaludo(nombre) {
-    return 'Hola ' + nombre;
+export function getGreeting(nombre) {
+    return "Hi " + nombre;
 }
-
-console.log( `Este es un texto: ${ getSaludo( nombre ) }  ` );
